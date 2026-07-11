@@ -7,3 +7,4 @@ __pycache__/
 data/*.csv
 !data/README.md
 !data/events.csv
+!data/BrentOilPrices.csv
