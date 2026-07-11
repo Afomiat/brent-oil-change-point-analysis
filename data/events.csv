@@ -1,0 +1,16 @@
+Date,Event,Category,Description
+1990-08-02,Iraq invades Kuwait,Geopolitical Conflict,Gulf War begins, disrupting Kuwaiti and Iraqi oil supply, causing a sharp price spike
+1997-07-02,Asian Financial Crisis,Economic Shock,Currency collapse across Asia sharply reduces oil demand, prices fall through 1998
+1999-03-23,OPEC Production Cuts,OPEC Policy,OPEC agrees in Vienna to cut production by 1.716 million bpd effective April 1, helping prices recover from late-1990s lows
+2001-09-11,September 11 Attacks,Geopolitical Conflict,Market uncertainty and demand shock following US terrorist attacks
+2003-03-20,US Invasion of Iraq,Geopolitical Conflict,War disrupts Iraqi oil production and heightens Middle East risk premium
+2008-07-11,Peak Oil Price Pre-Crisis,Economic Shock,Brent hits record high (~$147) driven by demand growth and speculation
+2008-09-15,Global Financial Crisis (Lehman Collapse),Economic Shock,Financial crisis triggers demand collapse, prices crash from highs
+2011-02-15,Arab Spring / Libyan Civil War,Geopolitical Conflict,Libyan oil production disrupted, supply-side price spike
+2014-11-27,OPEC Refuses to Cut Production,OPEC Policy,OPEC maintains output despite oversupply, triggering sharp 2014-16 price collapse
+2016-11-30,OPEC+ Production Cut Agreement,OPEC Policy,OPEC and non-OPEC producers agree to first coordinated cut since 2008, prices stabilize
+2018-05-08,US Withdraws from Iran Nuclear Deal,Sanctions,Renewed US sanctions on Iranian oil exports tighten supply
+2020-03-08,Saudi-Russia Price War,OPEC Policy,OPEC+ talks collapse, Saudi Arabia floods market, prices crash further
+2020-04-20,COVID-19 Demand Collapse,Economic Shock,Global lockdowns collapse demand; US WTI briefly goes negative, Brent hits multi-year low
+2022-02-24,Russia Invades Ukraine,Geopolitical Conflict,War triggers sanctions on Russian oil, supply fears drive Brent above $120
+2022-06-01,EU Bans Russian Oil Imports,Sanctions,EU sanctions on Russian crude imports tighten global supply chains
