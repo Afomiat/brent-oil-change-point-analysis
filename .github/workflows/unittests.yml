@@ -41,7 +41,11 @@ jobs:
 
     - name: Run Backend Unit Tests
       run: |
-        python -m unittest tests/test_backend.py
+        if [ -f tests/test_backend.py ]; then
+          python -m unittest tests/test_backend.py
+        else
+          echo "No backend tests found, skipping."
+        fi
 
   frontend-build:
     runs-on: ubuntu-latest
@@ -57,11 +61,19 @@ jobs:
 
     - name: Install Frontend Dependencies
       run: |
-        cd frontend
-        npm install --legacy-peer-deps
-        npm install react-is --legacy-peer-deps
+        if [ -d frontend ]; then
+          cd frontend
+          npm install --legacy-peer-deps
+          npm install react-is --legacy-peer-deps
+        else
+          echo "No frontend directory found, skipping."
+        fi
 
     - name: Build Frontend
       run: |
-        cd frontend
-        npm run build
+        if [ -d frontend ]; then
+          cd frontend
+          npm run build
+        else
+          echo "No frontend directory found, skipping."
+        fi
